@@ -115,7 +115,7 @@ def main():
     nBalls = 4
     imgfiles = ["resource/ball0.gif", "resource/ball1.gif", "resource/ball2.gif", "resource/ball3.gif", "resource/ball4.gif"]
     ballmass = [1.0, 4.0, 2.0, 1.0, 1.0]
-    initSpeeds = [[6.0, 4.5], [-2.0, 3.0], [2.0, 3.5], [-4.0, -1.5], [-4.0, -1.5], [-2.0, -3]]
+    initSpeeds = [[6.0, 4.5], [-2.0, 3.0], [2.0, 3.5], [-4.0, -1.5], [-4.0, -1.5]]
     initLocOffset = [[0, 0], [width/2, 0], [width*3/4, 0], [width*3/5, height/2], [width*2/5, height/5]]
     balls = []
     for i in range(nBalls):
